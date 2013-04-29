@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- This file is part of account_payment module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.sequence.type" id="account_payment_sequence_type">
+            <field name="name">Account Payment</field>
+            <field name="code">account.payment</field>
+        </record>
+
+        <record model="ir.sequence.type-res.group"
+            id="account_payment_sequence_type_group_account">
+            <field name="sequence_type" ref="account_payment_sequence_type"/>
+            <field name="group" ref="account.group_account"/>
+        </record>
+
+        <record model="ir.sequence" id="account_payment_sequence">
+            <field name="name">Account Payment</field>
+            <field name="code">account.payment</field>
+        </record>
+    </data>
+</tryton>

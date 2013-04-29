@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- This file is part account_payment module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form string="Payment" col="6">
+    <label name="number"/>
+    <field name="number"/>
+    <label name="type"/>
+    <field name="type"/>
+    <label name="company"/>
+    <field name="company"/>
+    <label name="payment_journal"/>
+    <field name="payment_journal"/>
+    <label name="planned_date"/>
+    <field name="planned_date"/>
+    <label name="done_date"/>
+    <field name="done_date"/>
+    <label name="total_amount"/>
+    <field name="total_amount"/>
+    <field name="lines"
+        widget="many2many"
+        colspan="6"
+        view_ids="account.move_line_view_tree_move"/>
+    <group col="4" colspan="6" id="account_payment_payment_last_line">
+        <label name="state"/>
+        <field name="state"/>
+        <group col="1" colspan="2" id="account_payment_payment_buttons">
+            <button name="draft" string="Draft" colspan="2"/>
+            <button name="confirm" string="Confirm" colspan="2"/>
+        </group>
+    </group>
+</form>

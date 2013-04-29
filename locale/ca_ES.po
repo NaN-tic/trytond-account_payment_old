@@ -1,0 +1,243 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.move.line,payment:"
+msgid "Payment"
+msgstr "Ordre de pagament"
+
+msgctxt "field:account.payment,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:account.payment,create_date:"
+msgid "Create Date"
+msgstr "Data creació"
+
+msgctxt "field:account.payment,create_uid:"
+msgid "Create User"
+msgstr "Crear usuari"
+
+msgctxt "field:account.payment,currency_digits:"
+msgid "Currency Digits"
+msgstr "Decimals de moneda"
+
+msgctxt "field:account.payment,done_date:"
+msgid "Done Date"
+msgstr "Data de realització"
+
+msgctxt "field:account.payment,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:account.payment,lines:"
+msgid "Lines"
+msgstr "Línies"
+
+msgctxt "field:account.payment,number:"
+msgid "Number"
+msgstr "Número"
+
+msgctxt "field:account.payment,payment_journal:"
+msgid "Payment Journal"
+msgstr "Diari d'ordre de pagament"
+
+msgctxt "field:account.payment,planned_date:"
+msgid "Planned Date"
+msgstr "Data de planificació"
+
+msgctxt "field:account.payment,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:account.payment,state:"
+msgid "State"
+msgstr "Estat"
+
+msgctxt "field:account.payment,total_amount:"
+msgid "Amount"
+msgstr "Import"
+
+msgctxt "field:account.payment,type:"
+msgid "Type"
+msgstr "Tipus"
+
+msgctxt "field:account.payment,write_date:"
+msgid "Write Date"
+msgstr "Data modificació"
+
+msgctxt "field:account.payment,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "field:account.payment.journal,active:"
+msgid "Active"
+msgstr "Actiu"
+
+msgctxt "field:account.payment.journal,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:account.payment.journal,create_date:"
+msgid "Create Date"
+msgstr "Data creació"
+
+msgctxt "field:account.payment.journal,create_uid:"
+msgid "Create User"
+msgstr "Crear usuari"
+
+msgctxt "field:account.payment.journal,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:account.payment.journal,journal:"
+msgid "Journal"
+msgstr "Diari"
+
+msgctxt "field:account.payment.journal,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:account.payment.journal,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:account.payment.journal,type:"
+msgid "Type"
+msgstr "Tipus"
+
+msgctxt "field:account.payment.journal,write_date:"
+msgid "Write Date"
+msgstr "Data modificació"
+
+msgctxt "field:account.payment.journal,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "field:account.payment.journal.type,code:"
+msgid "Code"
+msgstr "Codi"
+
+msgctxt "field:account.payment.journal.type,create_date:"
+msgid "Create Date"
+msgstr "Data creació"
+
+msgctxt "field:account.payment.journal.type,create_uid:"
+msgid "Create User"
+msgstr "Crear usuari"
+
+msgctxt "field:account.payment.journal.type,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:account.payment.journal.type,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:account.payment.journal.type,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:account.payment.journal.type,write_date:"
+msgid "Write Date"
+msgstr "Data modificació"
+
+msgctxt "field:account.payment.journal.type,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "help:account.payment,done_date:"
+msgid "Date when the payment order is done."
+msgstr "Data a la que s'ha realitzat l'ordre de pagament."
+
+msgctxt "help:account.payment,planned_date:"
+msgid "Date when the payment entity must process the payment order."
+msgstr "Data a la que la entitat ha de processar l'ordre de pagament."
+
+msgctxt "model:account.payment.journal,name:"
+msgid "Account Payment Journal"
+msgstr "Diaris d'ordre de pagament"
+
+msgctxt "model:account.payment.journal.type,name:"
+msgid "Account Payment Journal Type"
+msgstr "Tipus de diari d'ordre de pagament"
+
+msgctxt "model:account.payment.journal.type,name:none"
+msgid "None"
+msgstr "Cap"
+
+msgctxt "model:ir.action,name:act_window_account_payment_journal"
+msgid "Payment Journals"
+msgstr "Diaris d'ordre de pagament"
+
+msgctxt "model:ir.action,name:act_window_account_payment_journal_type"
+msgid "Payment Journal Types"
+msgstr "Tipus d'ordres de pagament"
+
+msgctxt "model:ir.action,name:act_window_account_payment_payment"
+msgid "Payments"
+msgstr "Ordres de pagament"
+
+msgctxt "model:ir.sequence,name:account_payment_sequence"
+msgid "Account Payment"
+msgstr "Ordre de pagament"
+
+msgctxt "model:ir.sequence.type,name:account_payment_sequence_type"
+msgid "Account Payment"
+msgstr "Ordre de pagament"
+
+msgctxt "model:ir.ui.menu,name:menu_account_payment"
+msgid "Payment"
+msgstr "Ordre de pagament"
+
+msgctxt "model:ir.ui.menu,name:menu_account_payment_journal_form"
+msgid "Payment Journals"
+msgstr "Diaris d'ordre de pagament"
+
+msgctxt "model:ir.ui.menu,name:menu_account_payment_journal_type_form"
+msgid "Payment Journal Types"
+msgstr "Tipus d'ordres de pagament"
+
+msgctxt "model:ir.ui.menu,name:menu_account_payment_payment_form"
+msgid "Payments"
+msgstr "Ordres de pagament"
+
+msgctxt "selection:account.payment,state:"
+msgid "Done"
+msgstr "Fet"
+
+msgctxt "selection:account.payment,state:"
+msgid "Draft"
+msgstr "Esborrany"
+
+msgctxt "selection:account.payment,type:"
+msgid "Both"
+msgstr "Ambdós"
+
+msgctxt "selection:account.payment,type:"
+msgid "Payable"
+msgstr "A pagar"
+
+msgctxt "selection:account.payment,type:"
+msgid "Receivable"
+msgstr "A cobrar"
+
+msgctxt "view:account.payment.journal.type:"
+msgid "Payment"
+msgstr "Ordre de pagament"
+
+msgctxt "view:account.payment.journal:"
+msgid "Payment"
+msgstr "Ordre de pagament"
+
+msgctxt "view:account.payment:"
+msgid "Confirm"
+msgstr "Confirma"
+
+msgctxt "view:account.payment:"
+msgid "Draft"
+msgstr "Esborrany"
+
+msgctxt "view:account.payment:"
+msgid "Payment"
+msgstr "Ordre de pagament"

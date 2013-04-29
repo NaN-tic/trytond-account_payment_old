@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- This file is part account_payment module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tree string="Payment">
+    <field name="number"/>
+    <field name="company"/>
+    <field name="type"/>
+    <field name="payment_journal"/>
+    <field name="planned_date"/>
+    <field name="done_date"/>
+    <field name="total_amount"/>
+    <field name="lines"/>
+    <field name="state"/>
+</tree>
