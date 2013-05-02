@@ -69,9 +69,9 @@ class AccountPayment(Workflow, ModelSQL, ModelView):
         select=True, readonly=True, states=_STATES)
     payment_journal = fields.Many2One('account.payment.journal',
         'Payment Journal', required=True, states=_STATES)
-    planned_date = fields.Date('Planned Date', required=True, states=_STATES,
+    planned_date = fields.Date('Planned Date', states=_STATES,
         help='Date when the payment entity must process the payment order.')
-    done_date = fields.Date('Done Date', required=True, states=_STATES,
+    done_date = fields.Date('Done Date', states=_STATES, readonly=True,
         help='Date when the payment order is done.')
     currency_digits = fields.Function(fields.Integer('Currency Digits'),
         'get_currency_digits')
