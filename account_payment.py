@@ -162,7 +162,8 @@ class AccountPayment(Workflow, ModelSQL, ModelView):
     @ModelView.button
     @Workflow.transition('done')
     def confirm(cls, payments):
-        pass
+        Date = Pool().get('ir.date')
+        cls.write(payments, {'done_date': Date.today()})
 
     @classmethod
     @ModelView.button
