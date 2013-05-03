@@ -7,7 +7,7 @@ from trytond.pool import Pool, PoolMeta
 from trytond.pyson import Eval, If, Equal
 from trytond.transaction import Transaction
 __all__ = [
-    'AccountPaymentJournalType',
+#    'AccountPaymentJournalType',
     'AccountPaymentJournal',
     'AccountPayment',
     'Line',
@@ -16,14 +16,6 @@ __metaclass__ = PoolMeta
 _STATES = {
     'readonly': Eval('state') != 'draft',
 }
-
-
-class AccountPaymentJournalType(ModelSQL, ModelView):
-    'Account Payment Journal Type'
-    __name__ = 'account.payment.journal.type'
-
-    code = fields.Char('Code', required=True, select=True)
-    name = fields.Char('Name', required=True, select=True, translate=True)
 
 
 class AccountPaymentJournal(ModelSQL, ModelView):
@@ -35,14 +27,7 @@ class AccountPaymentJournal(ModelSQL, ModelView):
     company = fields.Many2One('company.company', 'Company', required=True,
         select=True, readonly=True)
     journal = fields.Many2One('account.journal', 'Journal', required=True)
-    type = fields.Selection('get_types', 'Type', required=True)
-
-    @staticmethod
-    def get_types():
-        Type = Pool().get('account.payment.journal.type')
-        types = Type.search([])
-        values = [(x.code, x.name) for x in types]
-        return values
+    type = fields.Selection([], 'Type of payment file', required=False)
 
     @staticmethod
     def default_active():

@@ -7,7 +7,6 @@ from .account_payment import *
 
 def register():
     Pool.register(
-        AccountPaymentJournalType,
         AccountPaymentJournal,
         AccountPayment,
         Line,
