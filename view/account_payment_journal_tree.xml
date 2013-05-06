@@ -7,5 +7,4 @@ copyright notices and license terms. -->
     <field name="type"/>
     <field name="company"/>
     <field name="journal"/>
-    <field name="type"/>
 </tree>
