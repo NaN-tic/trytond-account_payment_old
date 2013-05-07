@@ -26,7 +26,8 @@ class AccountPaymentJournal(ModelSQL, ModelView):
     active = fields.Boolean('Active')
     company = fields.Many2One('company.company', 'Company', required=True,
         select=True, readonly=True)
-    journal = fields.Many2One('account.journal', 'Journal', required=True)
+    journal = fields.Many2One('account.journal', 'Journal', required=True,
+        domain=[('type', '=', 'cash')])
     type = fields.Selection([], 'Type of payment file', required=False)
 
     @staticmethod
