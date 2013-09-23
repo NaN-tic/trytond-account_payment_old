@@ -1,6 +1,9 @@
 trytond_account_payment
 =======================
 
+
+WARNING: This is an outdated version of the module. 
+
 The account_payment module of the Tryton application platform.
 
 Installing
